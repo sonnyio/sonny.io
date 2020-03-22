@@ -1,0 +1,197 @@
+{
+  "aboutMe": "Software Engineer with 7+ years of experience building highly scalable and complex software products in fast moving environments. I enjoy working on meaningful projects that strive to build a better world through tech.",
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": {
+        "name": "Wayfair",
+        "link": "https://wayfair.com"
+      },
+      "duration": {
+        "start": "August 2019"
+      },
+      "roles": [
+        {
+          "description": "",
+          "accomplishments": [
+            "As a member of the Ocean Rates team I helped build shipping container allocation tool for our international supply chain.",
+            "Wrote and presented Architecture Design Records to senior engineers and leadership."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Lead Engineer / CTO",
+      "company": {
+        "name": "uSTADIUM",
+        "link": "https://www.ustadium.com"
+      },
+      "duration": {
+        "start": "December 2016",
+        "end": "August 2019"
+      },
+      "roles": [
+        {
+          "description": "",
+          "accomplishments": [
+            "Defined application specifications for Android, iOS, Web, and the server and assigned issues to developers.",
+            "Used NodeJS, MySQL, and Redis in Google Cloud to build a scalable backend server for handling requests between the various platforms",
+            "Built custom caching system with Redis, MySQL, and NodeJS to increase average request response time from 2000ms to 90ms.",
+            "Handled all aspects of iOS development process from development, generating test builds, and submitting to app store",
+            "Used Firebase Events to track how a user interacts with the application and what improvements we can do to increase user interaction.",
+            "Managed, tracked, and reported issues as they were reported by users, testers, and crash reports.",
+            "Wrote API documentation for the team explaining best practices and how to efficiently perform common tasks and interact with the server.",
+            "Released an open source tool in NPM which used tokenization to parse out mentions, hashtags, and links in a string of text (https://bit.ly/2WPnVVs).",
+            "Built push notifications system for efficiently sending thousands of notifications to Apple and Android devices."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": {
+        "name": "LoadStorm",
+        "link": "https://loadstorm.com/"
+      },
+      "duration": {
+        "start": "October 2013",
+        "end": "June 2016"
+      },
+      "roles": [
+        {
+          "description": "Blustery.io - Functional testing product designed to help IT organizations automate functional, visual, and performance testing of their applications in multiple Browsers, Devices, OS and Screen Resolutions using tools like Selenium and Appium.",
+          "accomplishments": [
+            "Led the development of over 300+ functional Selenium tests.",
+            "Built Docker containers to run in AWS and Google Cloud Compute to launch standalone instances on demand to execute multiple asynchronous functional tests.",
+            "Setup continuous delivery server and agents to schedule test execution."
+          ]
+        },
+        {
+          "description": "LoadStorm.com - Cloud load testing product.",
+          "accomplishments": [
+            "Developed new frontend features with Java, Javascript, and Python.",
+            "Worked on server side code to simulate user interactions for testing.",
+            "Developed comprehensive suite of Selenium tests."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Student Web Developer",
+      "company": {
+        "name": "University of New Mexico",
+        "link": "https://it.unm.edu/"
+      },
+      "duration": {
+        "start": "January 2012",
+        "end": "August 2013"
+      },
+      "roles": [
+        {
+          "description": "",
+          "accomplishments": [
+            "Developed interactive maps of the University campus for desktop and mobile.",
+            "Worked with the office of the Provost to develop ConnectU; a blogging platform for the provost to connect with students and faculty.",
+            "Created various landing pages and updated department sites as needed."
+          ]
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Computer Science, MS",
+      "institution": {
+        "name": "University of New Mexico",
+        "link": "https://cs.unm.edu"
+      },
+      "duration": {
+        "start": "January 2017",
+        "end": "May 2018"
+      },
+      "study": [
+        "Concentration in Machine Learning and Data Mining (3.56 GPA)",
+        "Introduction to Machine Learning (A) - Learned the fundamentals of Machine Learning and Data Science through various projects written in Python",
+        "Compiler Construction (A) - Built a compiler in C++ for a programming language defined by our professor."
+      ]
+    },
+    {
+      "degree": "Computer Science, BS",
+      "institution": {
+        "name": "University of New Mexico",
+        "link": "https://cs.unm.edu"
+      },
+      "duration": {
+        "start": "August 2010",
+        "end": "December 2015"
+      },
+      "study": [
+        "BS in Computer Science with a minor in Economics",
+        "Leader in the Society of Women Engineers.",
+        "First place winner in 2014 Google and Society of Women Engineer Hackathon. Read more in the <a href=\"https://www.abqjournal.com/499554/these-hackers-wear-white-hats.html\">Albuquerque Journal</a>"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Software Engineering",
+      "rating": 5,
+      "info": ""
+    },
+    {
+      "name": "Server Side Development",
+      "rating": 5,
+      "info": "SQL, Redis, Google Cloud, Microservices, Go, NodeJS"
+    },
+    {
+      "name": "Web Development",
+      "rating": 5,
+      "info": "Javascript, React, HTML, CSS"
+    },
+    {
+      "name": "Test Driven Development",
+      "rating": 4,
+      "info": ""
+    },
+    {
+      "name": "iOS Development",
+      "rating": 3,
+      "info": "Swift, Objective-C, CoreData, CoreML"
+    },
+    {
+      "name": "Machine Learning",
+      "rating": 3,
+      "info": ""
+    }
+  ],
+  "languages": [
+    {
+      "name": "Javascript",
+      "rating": 5
+    },
+    {
+      "name": "Python",
+      "rating": 4
+    },
+    {
+      "name": "Java",
+      "rating": 3
+    },
+    {
+      "name": "Swift",
+      "rating": 3
+    },
+    {
+      "name": "Go",
+      "rating": 3
+    },
+    {
+      "name": "C / C++",
+      "rating": 3
+    },
+    {
+      "name": "PHP",
+      "rating": 3
+    }
+  ]
+}
