@@ -17,7 +17,7 @@
     "local": "react-scripts start",
     "build": "react-scripts build",
     "pretest": "eslint .",
-    "test": "react-scripts test --no-watchman --all",
+    "test": "react-scripts test --coverage --no-watch --watch=false --watchAll=false --no-watchman --forceExit",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
