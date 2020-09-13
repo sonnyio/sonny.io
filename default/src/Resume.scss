@@ -1,0 +1,171 @@
+.Resume {
+    width: 950px;
+    margin: 0 auto;
+
+    .Section {
+        text-align: center;
+        color: #EF798A;
+        border-bottom: 1px solid #EF798A;
+    }
+        
+    .Sidebar {
+        width: 350px;
+        float: left;
+
+        .skill, .language {
+            margin-top: 30px;
+            font-size: 14px;
+            text-align: left;
+
+            .name {
+                margin-bottom: 0px;
+                
+                span {
+                    float: right;
+                    padding-right: 5px;
+                }
+            }
+
+            .info {
+                font-size: 12px;
+                color: #888;
+                margin-top: 4px;
+            }
+        }
+    }
+
+    .Content {
+        width: 599px;
+        float:left;
+        border-left: 1px solid #EF798A;
+        
+        p {
+            text-align: justify;
+            padding: 0px 0px 0px 16px;
+        }
+
+        ul.Experience {
+            margin-left: 16px;
+            padding-inline-start: 0px;
+
+            > li {
+                list-style: none;
+
+                .role {
+                    width: 100%;
+                    
+                    h4 {
+                        display: inline-block;
+                        width: 100%;
+                        text-transform: uppercase;
+                        margin-bottom: 0px;
+
+                        .title {
+                            float: left;
+                        }
+
+                        .company {
+                            float: right;
+                            
+                             a {
+                                 color: #666;
+                                 
+                                 &:hover{
+                                     color: #EF798A;    
+                                 }                                 
+                             }
+                        }
+                    }
+
+                    p {
+                        width: 100%;
+                        margin: 0px !important;
+                        text-transform: uppercase;
+                        padding-left: 0px;
+                        font-size: 10px;
+                    }
+
+                    > ul {
+                        padding-inline-start: 0px;
+                    }
+                    
+                    .subrole{
+                        margin-top:12px;
+                        list-style: none;
+                        
+                        .title {
+                            margin-botom: 6px;
+                            margin-block-end: 6px;
+                            color: #666;
+                            padding-inline-start: 0px;
+                            text-align: left;
+                            font-size:14px;
+                        }
+
+                        li {
+                            text-align: left;
+                            margin-top:4px;
+                            margin-bottom:6px;
+                            font-size:14px;
+                        }
+                    }
+                }
+            }
+        }
+
+        ul.Education {
+            margin-left: 16px;
+            padding-inline-start: 0px;
+
+            > li {
+                list-style: none;
+
+                .role {
+                    width: 100%;
+                    
+                    h4 {
+                        display: inline-block;
+                        width: 100%;
+                        text-transform: uppercase;
+                        margin-bottom: 0px;
+
+                        .title {
+                            float: left;
+                        }
+
+                        .company {
+                            float: right;
+                            
+                             a {
+                                 color: #666;
+                                 
+                                 &:hover{
+                                     color: #EF798A;    
+                                 }                                 
+                             }
+                        }
+                    }
+
+                    p {
+                        width: 100%;
+                        margin: 0px !important;
+                        text-transform: uppercase;
+                        padding-left: 0px;
+                        font-size: 10px;
+                    }
+
+                    > ul {
+                        text-align:left;
+
+                        li {
+                            text-align: left;
+                            margin-top:4px;
+                            margin-bottom:6px;
+                            font-size:14px;
+                        }
+                    }
+                }
+            }
+        }        
+    }
+}

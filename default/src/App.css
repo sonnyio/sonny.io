@@ -1,0 +1,10 @@
+.App {
+  padding-top:5%;
+  text-align: center;
+}
+
+#me {
+    max-width: 75%;
+    max-height: 120px;
+    border-radius: 45%;
+}

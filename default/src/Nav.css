@@ -1,0 +1,17 @@
+.Navigation a, .Navigation a i {
+    text-decoration: none;
+    color: #EF798A;
+}
+
+.Social p a {
+    margin: 0px 8px;
+}
+
+.Social p a path {
+    color: #EF798A;    
+}
+
+
+.Navigation .Separator{
+    margin:0px 8px;
+}

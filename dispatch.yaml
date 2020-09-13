@@ -1,0 +1,7 @@
+dispatch:  
+  # Default service serves simple hostname request.
+  - url: "sonny.io/"
+    service: default
+  # Default service serves simple hostname request.
+  - url: "stitch.sonny.io/"
+    service: stitch

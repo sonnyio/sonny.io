@@ -1,0 +1,44 @@
+{
+  "name": "stitch.sonny.io",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "node-sass": "^4.13.1",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-icons": "^3.9.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.4.0",
+    "react-timer-hook": "^2.0.3",
+    "serve": "^11.3.0",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "start": "serve -s build",
+    "local": "react-scripts start",
+    "build": "react-scripts build",
+    "pretest": "eslint .",
+    "test": "react-scripts test --coverage --no-watch --watch=false --watchAll=false --no-watchman --forceExit",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-react": "^7.19.0"
+  }
+}

@@ -1,0 +1,14 @@
+.Home{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+
+#stitch-icon {
+    max-height: 64px;
+}
+
+#one {
+    max-width: 600px;
+}

@@ -1,17 +1,21 @@
 steps:
-- name: node
-  entrypoint: npm
-  args: ['install']
-
-- name: node
-  entrypoint: npm
-  args: ['run', 'test']
-
-- name: node
-  entrypoint: npm
-  args: ['run', 'build']
-  
 - name: 'gcr.io/cloud-builders/gcloud'
-  args: ['app', 'deploy']
+  entrypoint: 'bash'
+  args:
+  - '-c'
+  - |
+    for d in */; do
+      config="${d}cloudbuild.yaml"
+      if [[ ! -f "${config}" ]]; then
+        continue
+      fi
 
-timeout: 1600s
+      echo "Building $d ... "
+      (
+        gcloud builds submit $d --config=${config}
+      ) &
+    done
+    wait
+
+- name: 'gcr.io/cloud-builders/gcloud'
+  args: ['app', 'deploy', 'dispatch.yaml']    
