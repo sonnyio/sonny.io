@@ -12,6 +12,6 @@ steps:
   args: ['run', 'build']
   
 - name: 'gcr.io/cloud-builders/gcloud'
-  args: ['app', 'deploy', 'stitch']
+  args: ['app', 'deploy']
 
 timeout: 1600s
