@@ -1,5 +1,6 @@
 import React, {useEffect} from 'react';
 import Home from './Home';
+import PrivacyPolicy from './PrivacyPolicy';
 
 import './App.css';
 import {
@@ -24,6 +25,9 @@ function App() {
       <header className="App-header">
         <Router>
           <Switch>
+            <Route path="/privacy">
+              <PrivacyPolicy />
+            </Route>
             <Route path="/">
               <Home />
             </Route>

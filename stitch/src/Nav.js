@@ -44,8 +44,8 @@ function Nav() {
     <div className='Navigation'>
       <div>
         <p>
-          <HomeLink />
-          <a href="https://www.apple.com">Download in the Mac App Store</a>
+          <a href="https://www.apple.com">Download in the Mac App Store</a> | 
+          <Link to="/privacy">Privacy Policy</Link>
         </p>
       </div>
       <div className='Social'>
