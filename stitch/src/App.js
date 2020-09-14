@@ -17,7 +17,7 @@ import {
  */
 function App() {
   useEffect(() => {
-    document.title = `Sonny Trujillo Jr. - engineer, scientist, creator`;
+    document.title = `Stitch - Fast Text Formatter`;
   });
 
   return (
